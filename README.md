@@ -22,6 +22,8 @@ You can find the eBook [here](https://mitpress.mit.edu/sicp/full-text/book/book.
 
 * [x] 1.07
 
+* [x] 1.08
+
 ### Errors
 
 If you spot an error in my solutions please feel free to reach out and let me know!
