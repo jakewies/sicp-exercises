@@ -8,15 +8,15 @@ You can find the eBook [here](https://mitpress.mit.edu/sicp/full-text/book/book.
 
 **Ch 1 Building Abstractions with Procedures**
 
-- [x] 1.01 (not listed)
+* [x] 1.01 (not listed)
 
-- [x] 1.02
+* [x] 1.02
 
-- [ ] 1.03
+* [x] 1.03
 
-- [ ] 1.04
+* [ ] 1.04
 
-- [ ] 1.05
+* [ ] 1.05
 
 ### Errors
 
