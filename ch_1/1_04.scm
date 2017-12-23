@@ -1,8 +1,6 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Observe that our model of evaluation allows for combinations 
 ;; whose operators are compound expressions. Use this observation 
 ;; to describe the behavior of the following procedure:
-
 
 (define (a-plus-abs-b a b)
   ((if (> b 0) + -) a b))
@@ -12,7 +10,6 @@
 ;; The if statement results in either a + or -, depending on the value of b.
 ;; If b is greater than 0, a + is returned and a and b are added together.
 ;; if it is less than 0, a - is returned and b is subtracted from a.
-
 
 ;; Using a positive number for b
 

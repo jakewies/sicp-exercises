@@ -1,4 +1,3 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Ben Bitdiddle has invented a test to determine whether 
 ;; the interpreter he is faced with is using applicative-order 
 ;; evaluation or normal-order evaluation. He defines the following 
@@ -11,9 +10,11 @@
       0
       y))
 
+
 ;; Then he evaluates the expression:
 
 (test 0 (p))
+
 
 ;; What behavior will Ben observe with an interpreter that uses applicative-order 
 ;; evaluation? What behavior will he observe with an interpreter that uses 
@@ -27,10 +28,10 @@
 
 (test 0 (p))
 
+
 ;; In applicative-order evaluation, this code never runs because it has to evaluate the 
 ;; parameter y, which is (p), to provide the test procedure with a value. It results in recursion,
 ;; or p continually calling itself.
-
 
 ;; Normal-order evaluation
 
@@ -39,6 +40,7 @@
 (if (= x 0)
     0
     (p)) ;; 0
+
 
 ;; In normal-order evaluation, the code executes because it does not have to evaulate
 ;; (p). This is because normal-order evaluates arguments when its values are needed. Since
