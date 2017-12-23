@@ -14,9 +14,9 @@ You can find the eBook [here](https://mitpress.mit.edu/sicp/full-text/book/book.
 
 * [x] 1.03
 
-* [ ] 1.04
+* [x] 1.04
 
-* [ ] 1.05
+* [x] 1.05
 
 ### Errors
 
